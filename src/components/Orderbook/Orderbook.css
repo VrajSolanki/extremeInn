@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+
+.header {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    color: black;
+    height: 40px;
+    font-weight: 700;
+    padding: 0px 16px;
+    border-bottom: 1px solid gray;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cumulative{
+    width: 600px;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+.value{
+    color: maroon;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.currentState{
+    color: black;
+    font-weight: 300;
+    font-size: 1.6rem;
+    display: flex;
+}
+.orderbook{
+    display: flex;
+    padding: 8px;
+}
+.buyColumnColor{
+    text-align: left;
+    color: lightcoral;
+}
+.buyTotalColor{
+    text-align: left;
+    background-color:rgba(240,128,128,0.1);
+}  
+.sellTotalColor{
+    text-align: left;
+    background-color:rgba(128,240,128,0.1); 
+}  
+.sellColumnColor{
+    text-align: left;
+    color:lightgreen;
+}
